@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Thompson - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">ND</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        
+        <div class="hero-content">
+            <h1>Nadun Deepamal</h1>
+            <p class="subtitle">Graphic Designer & Web developer</p>
+            <p>A passionate designer and developer, dedicated to crafting meaningful digital experiences. Welcome to my portfolio—explore my work, projects, and the journey behind every design.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">👨‍💻</div>
+                <div class="about-text">
+                    <h3>Hello, I'm Nadun D.</h3>
+                    <p>I am an aspiring designer and software engineering student with a growing passion for UI/UX, web development, and creative digital design. I'm currently building my skills in HTML, CSS, JavaScript, and design tools while exploring modern frameworks and layout principles.</p>
+                    <p>When I'm not designing or coding, I enjoy learning from tutorials, sketching layout ideas, and getting inspired by other creators in the community. Every project I take on is a new opportunity to improve and experiment.</p>
+                    <p>I believe in simple, user-centered design and clean code that brings ideas to life in meaningful ways. This portfolio reflects my learning journey—one step at a time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>Design & Creativety</h3>
+                    <p>React, Vue.js, HTML5, CSS3, JavaScript ES6+, TypeScript, Sass</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h3>Frontend development</h3>
+                    <p>Node.js, Express, Python, Django, REST APIs, GraphQL</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>Backend and APIs</h3>
+                    <p>MongoDB, PostgreSQL, MySQL, AWS, Firebase, Docker</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨
+                        <img src="assets/icons/video-editing-icon.png" alt="Video Editing Icon" class="icon-img">
+                    </div>
+                    <h3>Video editing</h3>
+                    <p>Figma, Adobe XD, Git, Webpack, Vite, Testing Libraries</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">🛍️</div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-featured e-commerce platform built with React and Node.js. Features include user authentication, payment processing, and admin dashboard.</p>
+                        <p><strong>Tech:</strong> React, Node.js, MongoDB, Stripe API</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📱</div>
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                        <p><strong>Tech:</strong> Vue.js, Express, Socket.io, PostgreSQL</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <div class="project-content">
+                        <h3>Analytics Dashboard</h3>
+                        <p>A comprehensive analytics dashboard with interactive charts, real-time data processing, and customizable reports for business insights.</p>
+                        <p><strong>Tech:</strong> React, D3.js, Python, Flask, Redis</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>I'm always interested in new opportunities and exciting projects. Let's discuss how we can work together to bring your ideas to life.</p>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link">📧</a>
+                <a href="#" class="social-link">💼</a>
+                <a href="#" class="social-link">🐱</a>
+                <a href="#" class="social-link">🐦</a>
+            </div>
+            <p>&copy; 2024 Alex Thompson. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
